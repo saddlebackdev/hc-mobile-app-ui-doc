@@ -1,7 +1,7 @@
 # Text
 
 {% hint style="warning" %}
-It is possible to pass custom styles directly to the Text component through the `style` prop. However, to maintain consistent typography throughout the app, **it is not recommended to do so**. When needed, you can create a Higher Order Component which wraps the Text component. See [Custom Fonts](custom-fonts.md) for more details.
+It is possible to pass custom styles directly to the Text component through the `style` prop. However, to maintain consistent typography throughout the app, **it is not recommended to do so**. When needed, you can create a Higher Order Component which wraps the Text component and use that instead. See [Custom Fonts](custom-fonts.md) for more details.
 {% endhint %}
 
 ### Example
