@@ -32,3 +32,9 @@
 * [Pill Toggle](components/pill-toggle.md)
 * [Radio](components/radio.md)
 * [Select Picker](components/select-picker.md)
+* [Tiles](components/tiles.md)
+
+## Utilities
+
+* [Device Utilities](utilities/device-utilities.md)
+* [Layout Utilities](utilities/layout-utilities.md)
