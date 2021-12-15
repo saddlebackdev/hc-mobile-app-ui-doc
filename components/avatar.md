@@ -1,8 +1,12 @@
 # Avatar
 
+### Installation
+
+```jsx
+import { Avatar, AvatarProps } from 'hc-mobile-app-ui';
+```
+
 ### Example
-
-
 
 ### Props
 

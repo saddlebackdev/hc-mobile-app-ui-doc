@@ -2,6 +2,12 @@
 
 Floater allows one or more components to be relatively/absolutely positioned anywhere on the screen.
 
+### Installation
+
+```jsx
+import { Floater, FloaterProps } from 'hc-mobile-app-ui';
+```
+
 ### Example
 
 {% embed url="https://snack.expo.dev/@rrizk/mau---floating-button" %}

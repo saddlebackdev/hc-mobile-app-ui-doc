@@ -1,8 +1,12 @@
 # Checkbox
 
+### Installation
+
+```jsx
+import { Checkbox, CheckboxProps } from 'hc-mobile-app-ui';
+```
+
 ### Example
-
-
 
 ### Props
 

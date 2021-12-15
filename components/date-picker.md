@@ -2,9 +2,13 @@
 
 MAU uses the RNC DatePicker. See: [@react-native-community/datetimepicker](https://github.com/react-native-datetimepicker/datetimepicker)
 
+### Installation
+
+```jsx
+import { DatePicker, DatePickerProps } from 'hc-mobile-app-ui';
+```
+
 ### Example
-
-
 
 ### Props
 

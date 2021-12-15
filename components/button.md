@@ -1,14 +1,22 @@
 # Button
 
-### Filled
+### Installation
+
+```jsx
+import { Button, ButtonProps } from 'hc-mobile-app-ui';
+```
+
+### Example
+
+#### Filled
 
 {% embed url="https://snack.expo.dev/@rrizk/mau---filled-buttons" %}
 
-### Outline
+#### Outline
 
 {% embed url="https://snack.expo.dev/@rrizk/mau---outline-buttons" %}
 
-### States
+#### States
 
 {% embed url="https://snack.expo.dev/@rrizk/mau---button-states" %}
 
