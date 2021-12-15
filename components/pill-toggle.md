@@ -12,8 +12,18 @@ import { PillToggle, PillToggleProps } from 'hc-mobile-app-ui';
 
 ### Props
 
-| Name     | Type                                                         | Description                                                              |
-| -------- | ------------------------------------------------------------ | ------------------------------------------------------------------------ |
-| disabled | boolean                                                      | Determines if the toggle control is disabled or not.                     |
-| selected | number \| string                                             | Value of the already selected option.                                    |
-| options  | <p>Array&#x3C;{</p><p>label: string,</p><p>value: string</p> | <p>number,</p><p>disabled: boolean,</p><p>onPress: function</p><p>}></p> |
+| Name     | Type                          | Description                                          |
+| -------- | ----------------------------- | ---------------------------------------------------- |
+| disabled | boolean                       | Determines if the toggle control is disabled or not. |
+| selected | number \| string              | Value of the already selected option.                |
+| options  | Array\<ItemProps> (See below) | Array of items                                       |
+
+#### Item Props
+
+| Name     | Type             | Description                                |
+| -------- | ---------------- | ------------------------------------------ |
+| label    | string           | Label of the option                        |
+| value    | string \| number | Value for the option                       |
+| disabled | boolean          | If true, disables the current option       |
+| onPress  | function         | Function to be called when pill is pressed |
+
