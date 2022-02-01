@@ -8,12 +8,14 @@ import { SelectableList, SelectableListProps } from 'hc-mobile-app-ui';
 
 ### Example
 
+
+
 ### Props
 
-| Name     | Type                          | Description                        |
-| -------- | ----------------------------- | ---------------------------------- |
-| items    | Array\<ItemProps> (See Below) | List items to be shown.            |
-| selected | string \| number              | ID of the currently selected item. |
+| Name     | Type                             | Description                        |
+| -------- | -------------------------------- | ---------------------------------- |
+| items    | Array<**ItemProps**> (See Below) | List items to be shown.            |
+| selected | string \| number                 | ID of the currently selected item. |
 
 #### Item Props
 
