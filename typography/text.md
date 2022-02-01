@@ -10,13 +10,10 @@ It is possible to pass custom styles directly to the Text component through the 
 
 ### Props
 
-| Name      | Type                                                          | Description                                                         |
-| --------- | ------------------------------------------------------------- | ------------------------------------------------------------------- |
-| inversed  | boolean                                                       | If true, inverses the color of text.                                |
-| muted     | boolean                                                       | If true, renders the text as muted.                                 |
-| small     | boolean                                                       | If true, renders the text with small font size.                     |
-| variant   | body1 \| body2 \| caption \| button \| subtitle1 \| subtitle2 | Determines the variant of the text.                                 |
-| font      | primary \| secondary \| string                                | Font family to use. See [Custom Fonts](custom-fonts.md).            |
-| italic    | boolean                                                       | Renders the text in italics.                                        |
-| weight    | light \| regular \| semiBold \| bold                          |  Weight fo the font.                                                |
-| alignment | left \| center \| right                                       | Determines the alignment of the text. Can be left, center or right. |
+| Name       | Type                    | Description                             |
+| ---------- | ----------------------- | --------------------------------------- |
+| isMuted    | boolean                 | If true, renders the text as muted      |
+| isSubtitle | boolean                 | If true, renders the text as a subtitle |
+| isCaption  | boolean                 | If true, renders the text as a caption  |
+| alignment  | left \| center \| right | Determines the alignment of the text    |
+| inversed   | boolean                 | If true, inverses the color of text     |

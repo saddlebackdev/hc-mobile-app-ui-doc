@@ -10,9 +10,8 @@ It is possible to pass custom styles directly to the Heading component through t
 
 ### Props
 
-| Name      | Type                             | Description                                              |
-| --------- | -------------------------------- | -------------------------------------------------------- |
-| inversed  | boolean                          | If true, inverses the color of text.                     |
-| font      | primary \| secondary \| string   | Font family to use. See [Custom Fonts](custom-fonts.md). |
-| alignment | left \| center \| right          | Determines the alignment of the text.                    |
-| variant   | h1 \| h2 \| h3 \| h4 \| h5 \| h6 | Determines the variant of the heading.                   |
+| Name      | Type                             | Description                            |
+| --------- | -------------------------------- | -------------------------------------- |
+| alignment | left \| center \| right          | Determines the alignment of the text.  |
+| variant   | h1 \| h2 \| h3 \| h4 \| h5 \| h6 | Determines the variant of the heading. |
+| inversed  | boolean                          | If true, inverses the color of text    |

@@ -4,7 +4,7 @@ To maintain consistent spacing throughout the app, layouts should adhere to only
 
 ### Major Scale
 
-1 unit of major scale is equal to `11px`. MAU provides a utility function that allows you to use the major scale and its multiples in your design.
+1 unit of major scale is equal to 11px. MAU provides a utility function that allows you to use the major scale and its multiples in your design.
 
 #### Usage
 
@@ -20,7 +20,7 @@ margin-top: majorScale(4); // i.e. 11*4
 
 ### Minor Scale
 
-1 unit of minor scale is equal to `5px`. MAU provides a utility function that allows you to use the minor scale and its multiples in your design.
+1 unit of minor scale is equal to 5px. MAU provides a utility function that allows you to use the minor scale and its multiples in your design.
 
 #### Usage
 

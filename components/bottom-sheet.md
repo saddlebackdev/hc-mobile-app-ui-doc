@@ -19,7 +19,7 @@ import { BottomSheet, BottomSheetProps } from 'hc-mobile-app-ui';
 
 ### Header Props
 
-| Name        | Type   | Description                       |
-| ----------- | ------ | --------------------------------- |
-| title       | string | Title for the bottom sheet.       |
-| description | string | Description for the bottom sheet. |
+| Name        | Type   | Description                      |
+| ----------- | ------ | -------------------------------- |
+| title       | String | Title for the bottom sheet.      |
+| description | String | Description for the bottom sheet |

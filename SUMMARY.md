@@ -50,5 +50,6 @@
 
 ## Resources
 
-* [Changelog](https://github.com/saddlebackdev/hc-mobile-app-ui/blob/dev/CHANGELOG.md)
 * [Issues](https://github.com/saddlebackdev/hc-mobile-app-ui/issues)
+* [Changelog](https://github.com/saddlebackdev/hc-mobile-app-ui/blob/dev/CHANGELOG.md)
+* [GitHub](https://github.com/saddlebackdev/hc-mobile-app-ui)

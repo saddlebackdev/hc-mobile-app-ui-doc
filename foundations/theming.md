@@ -2,10 +2,10 @@
 
 ### Theme Provider
 
-MAU exports a `ThemeProvider` component that allows you to customise the colors and the typographic language.
+MAU exports a `ThemeProvider` component that allows you to customise the colors and the typographic language.&#x20;
 
 {% hint style="info" %}
-**Important!**
+#### Important!&#x20;
 
 The `ThemeProvider` component should be the parent of every other component that is imported from `'hc-mobile-app-ui'` package as these components utilise the theme prop from it. A good idea would be to add the `ThemeProvider` at the root of app usually `index.js` or `app.js`.
 {% endhint %}
@@ -41,11 +41,13 @@ MAU also exports a `defaultTheme` object which can be used to create a custom th
 ```json
 {
   colors: {
+    // Brand
     primaryLight: string;
     primaryDark: string;
     secondaryLight: string;
     secondaryDark: string;
 
+    // Intents
     infoLight: string;
     infoDark: string;
     successLight: string;
@@ -55,6 +57,7 @@ MAU also exports a `defaultTheme` object which can be used to create a custom th
     dangerLight: string;
     dangerDark: string;
 
+    // Monotone
     white: string;
     black: string;
     grayOne: string;
@@ -66,28 +69,9 @@ MAU also exports a `defaultTheme` object which can be used to create a custom th
   };
 
   typography: {
-    faces: {
-      primaryLight: string;
-      primaryRegular: string;
-      primarySemiBold: string;
-      primaryBold: string;
-
-      secondaryRegular: string;
-      secondaryLight: string;
-      secondarySemiBold: string;
-      secondaryBold: string;
-    };
     sizes: {
       small: number;
       regular: number;
-      text: {
-        body1: number;
-        body2: number;
-        caption: number;
-        button: number;
-        subtitle1: number;
-        subtitle2: number;
-      };
       headings: {
         h1: number;
         h2: number;
