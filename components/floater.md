@@ -16,9 +16,9 @@ import { Floater, FloaterProps } from 'hc-mobile-app-ui';
 
 | Name         | Type                 | Description                                            |
 | ------------ | -------------------- | ------------------------------------------------------ |
+| position     | absolute \| relative | Determines the position of this element in the layout. |
 | alignment    | top \| bottom        | Aligns the element on the screen.                      |
 | offsetTop    | number               | Adds padding from the top.                             |
 | offsetRight  | number               | Adds padding from the right.                           |
 | offsetBottom | number               | Adds padding from the bottom.                          |
 | offsetLeft   | number               | Adds padding from the left.                            |
-| position     | relative \| absolute | Determines the position of this element in the layout. |

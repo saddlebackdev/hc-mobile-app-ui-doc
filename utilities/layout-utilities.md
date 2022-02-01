@@ -18,7 +18,7 @@ import { LayoutUtils } from 'hc-mobile-app-ui';
 // Add 12px to all sides
 const touchableArea = LayoutUtils.addHitSlop(12);
 
-// Add 12px to top and 25px to bottom
+// Add 12px to top and 24px to bottom
 const touchableArea = LayoutUtils.addHitSlop(12, 0, 24);
 
 // Add 12px to vertical and 24px to horizontal sides

@@ -12,11 +12,11 @@ import { PillToggle, PillToggleProps } from 'hc-mobile-app-ui';
 
 ### Props
 
-| Name     | Type                          | Description                                          |
-| -------- | ----------------------------- | ---------------------------------------------------- |
-| disabled | boolean                       | Determines if the toggle control is disabled or not. |
-| selected | number \| string              | Value of the already selected option.                |
-| options  | Array\<ItemProps> (See below) | Array of items                                       |
+| Name     | Type                             | Description                                          |
+| -------- | -------------------------------- | ---------------------------------------------------- |
+| disabled | boolean                          | Determines if the toggle control is disabled or not. |
+| selected | number \| string                 | Value of the already selected option.                |
+| options  | Array<**ItemProps**> (See below) | Array of items                                       |
 
 #### Item Props
 

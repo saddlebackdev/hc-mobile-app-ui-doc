@@ -22,13 +22,13 @@ import { Radio, RadioProps } from 'hc-mobile-app-ui';
 
 ### Props
 
-| Name      | Type                                                         | Description                                         |
-| --------- | ------------------------------------------------------------ | --------------------------------------------------- |
-| disabled  | boolean                                                      | If true, disables all options of the radio control. |
-| onChange  | function                                                     | Function to be called when a new selection is made. |
-| direction | vertical \| horizontal                                       | Determines the direction of the radio options.      |
-| selected  | string \| number                                             | Value of the already selected option.               |
-| options   | <p>Array&#x3C;{</p><p>label: string,</p><p>value: string</p> | <p>number,</p><p>disabled: boolean</p><p>}></p>     |
+| Name      | Type                             | Description                                         |
+| --------- | -------------------------------- | --------------------------------------------------- |
+| disabled  | boolean                          | If true, disables all options of the radio control. |
+| onChange  | function                         | Function to be called when a new selection is made. |
+| direction | vertical \| horizontal           | Determines the direction of the radio options.      |
+| selected  | string \| number                 | Value of the already selected option.               |
+| options   | Array<**ItemProps**> (See Below) | Array of items                                      |
 
 #### Item Props
 
