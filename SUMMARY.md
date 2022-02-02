@@ -17,7 +17,6 @@
 
 ## Components
 
-* [Icon](components/icon.md)
 * [Accordion](components/accordion.md)
 * [Avatar](components/avatar.md)
 * [Bottom Sheet](components/bottom-sheet.md)
@@ -32,6 +31,7 @@
 * [Expandable Card](components/expandable-card.md)
 * [Floater](components/floater.md)
 * [Horizontal List](components/horizontal-list.md)
+* [Icon](components/icon.md)
 * [Icon Toggle](components/icon-toggle.md)
 * [Link](components/link.md)
 * [List Header](components/list-header.md)
