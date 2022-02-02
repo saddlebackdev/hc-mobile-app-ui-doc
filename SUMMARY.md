@@ -17,6 +17,7 @@
 
 ## Components
 
+* [Icon](components/icon.md)
 * [Accordion](components/accordion.md)
 * [Avatar](components/avatar.md)
 * [Bottom Sheet](components/bottom-sheet.md)
