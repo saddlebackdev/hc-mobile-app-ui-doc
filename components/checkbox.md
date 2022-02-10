@@ -8,6 +8,8 @@ import { Checkbox, CheckboxProps } from 'hc-mobile-app-ui';
 
 ### Example
 
+
+
 ### Props
 
 | Name      | Type     | Description                                               |
@@ -17,3 +19,5 @@ import { Checkbox, CheckboxProps } from 'hc-mobile-app-ui';
 | isChecked | boolean  | Determines if the checkbox is checked or not.             |
 | label     | string   | Label for the checkbox.                                   |
 | hint      | string   | Hint for the checkbox.                                    |
+| inversed  | boolean  | If true, renders the label and hint in white color.       |
+
